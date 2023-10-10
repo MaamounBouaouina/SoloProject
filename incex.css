@@ -1,0 +1,358 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: goldenrod;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+.logo {
+    width: 70px;
+    object-fit: contain;
+    height: 70px;
+
+
+}
+
+
+
+
+.searbtn {
+    position: relative;
+    top: 150px;
+    opacity: 1;
+    padding-top: 50px;
+}
+
+.slogan {
+    font-size: xx-large;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 435px;
+    border: solid 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.slogan:hover {
+    background-color: goldenrod;
+    animation-duration: 3s;
+}
+
+.nav {
+    position: relative;
+    opacity: 0.9;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.ft {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+
+}
+
+#search {
+    border-radius: 20px;
+    font-style: italic;
+    background-color: whitesmoke;
+    background-size: 50px;
+    width: 350px
+}
+
+#btns {
+    animation-duration: 2s;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#btns:hover {
+    animation-duration: 5s;
+    background-color: goldenrod;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+#price {
+    animation-duration: 2s;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#price:hover {
+    animation-duration: 5s;
+    background-color: goldenrod;
+    letter-spacing: 2px;
+}
+
+body {
+    text-align: center;
+    background-color: #f7ecda;
+    position: relative;
+
+}
+
+#agency {
+    padding-left: 40px;
+    bottom: 300px;
+    padding-right: 10px;
+    padding-bottom: 170px;
+}
+
+.image {
+    display: flex;
+    margin-top: 3%;
+    width: 60%;
+    height: 20%;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+.name {
+    border-radius: 20px;
+    position: relative;
+    background-color: transparent;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-left: 60%;
+    top: 380px;
+    letter-spacing: 5px;
+}
+
+.name:hover {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.description {
+    position: relative;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: larger;
+    margin-left: 800px;
+    top: 480px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-break: loose
+}
+
+.location {
+    position: relative;
+    right: 10%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: larger;
+    margin-left: 80%;
+    top: 450px;
+
+}
+
+.price {
+    position: relative;
+    right: 20%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: larger;
+    margin-left: 95%;
+    top: 500px;
+
+}
+
+
+#mail {
+    padding: 8px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.fp {
+    bottom: 380px;
+    position: relative;
+}
+
+
+/* 
+ .cover {
+     align-items: center;
+     background-size: cover;
+     opacity: 1;
+
+ } */
+
+
+/* .img1 {
+     background-size: cover;
+     height: 45%;
+     width: 50%;
+     display: flex;
+     left: 5%;
+     margin-top: 2%;
+     position: relative;
+     border: 20px;
+ }
+
+ #ap1 {
+     display: flex;
+     position: relative;
+ } */
+
+/* #titmg1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    margin-left: 22%;
+    margin-top: 5%;
+    font-size: x-large;
+
+    text-align: center;
+}
+
+.desc1 {
+    position: relative;
+    margin-top: 14%;
+    right: 13%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.btnPalm {
+    border-radius: 20px;
+    margin-top: 30%;
+    margin-left: 72%;
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.btnPalm:hover {
+    background-color: white;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.img2 {
+    background-size: cover;
+    height: 45%;
+    width: 50%;
+    display: flex;
+    left: 50%;
+    margin-top: 2%;
+    position: relative;
+    border: 20px;
+}
+#ap2{
+    display: flex;
+    position: relative;
+}
+.btnDownT {
+    border-radius: 20px;
+    margin-top: 25%;
+    margin-right: 75%;
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.btnDownT:hover {
+    background-color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#ap3{
+    display: flex;
+    position: relative;
+}
+.img3{
+    background-size: cover;
+    height: 45%;
+    width: 50%;
+    display: flex;
+    left: 5%;
+    margin-top: 2%;
+    position: relative;
+    border: 20px;
+}
+.btnBugatti {
+    border-radius: 20px;
+    margin-top: 25%;
+    margin-left: 75%;
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.btnBugatti {
+    border-radius: 20px;
+    margin-top: 25%;
+    margin-left: 75%;
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.btnBugatti:hover{
+    background-color: white;
+    text-align: center;
+    letter-spacing: 1px;
